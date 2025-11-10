@@ -4,60 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leeds Medical Centre | FAQ</title>
-    <link rel="stylesheet" href="https://newcss.net/theme/night.css">
+    <link rel="stylesheet" href="node_modules/markdown-air/css/air.css">
   </head>
   <body>
-    <header>
-      <h1>Leeds Medical Centre</h1>
-      <p>Your local family doctors, here to help you stay healthy and informed.</p>
-      <nav>
-        <a href="#">Home</a> · 
-        <a href="#">Services</a> · 
-        <a href="#">FAQ</a> · 
-        <a href="#">Contact</a>
-      </nav>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1 class="site-title">Leeds Medical Centre</h1>
+          <p class="site-tagline">Your local family doctors, here to help you stay healthy and informed.</p>
+        </div>
+
+        <nav class="primary-nav" aria-label="Primary">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link active" href="#">FAQ</a>
+          <a class="nav-link" href="#">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <main>
-      <section>
-        <h2>Frequently Asked Questions</h2>
-        <p>Below are answers to some of the most common questions we receive at our Leeds practice.</p>
+    <main class="site-main">
+      <div class="container">
+        <section class="hero">
+          <h2 class="hero-title">Frequently Asked Questions</h2>
+          <p class="hero-sub">Below are answers to some of the most common questions we receive at our Leeds practice.</p>
+        </section>
 
-        <details>
-          <summary>What are your opening hours?</summary>
-          <p>We are open Monday to Friday from 8:00 AM to 6:00 PM, and Saturdays from 9:00 AM to 1:00 PM.</p>
-        </details>
+        <section class="faq">
+          <div class="grid">
+            <article class="card">
+              <details>
+                <summary>What are your opening hours?</summary>
+                <p>We are open Monday to Friday from 8:00 AM to 6:00 PM, and Saturdays from 9:00 AM to 1:00 PM.</p>
+              </details>
+            </article>
 
-        <details>
-          <summary>Do you accept walk-in appointments?</summary>
-          <p>We recommend booking in advance, but we do accept limited walk-ins for urgent issues.</p>
-        </details>
+            <article class="card">
+              <details>
+                <summary>Do you accept walk-in appointments?</summary>
+                <p>We recommend booking in advance, but we do accept limited walk-ins for urgent issues.</p>
+              </details>
+            </article>
 
-        <details>
-          <summary>How can I register as a new patient?</summary>
-          <p>You can register online through our patient portal or by visiting our reception with a valid ID and proof of address.</p>
-        </details>
+            <article class="card">
+              <details>
+                <summary>How can I register as a new patient?</summary>
+                <p>You can register online through our patient portal or by visiting our reception with a valid ID and proof of address.</p>
+              </details>
+            </article>
 
-        <details>
-          <summary>Can I request prescriptions online?</summary>
-          <p>Yes! Registered patients can request repeat prescriptions through our secure online system or via the NHS app.</p>
-        </details>
+            <article class="card">
+              <details>
+                <summary>Can I request prescriptions online?</summary>
+                <p>Yes! Registered patients can request repeat prescriptions through our secure online system or via the NHS app.</p>
+              </details>
+            </article>
 
-        <details>
-          <summary>Where are you located?</summary>
-          <p>We’re located at 12 Park Row, Leeds LS1 5HU — near Leeds City Centre. Parking is available on site.</p>
-        </details>
-      </section>
+            <article class="card">
+              <details>
+                <summary>Where are you located?</summary>
+                <p>We’re located at 12 Park Row, Leeds LS1 5HU — near Leeds City Centre. Parking is available on site.</p>
+              </details>
+            </article>
+          </div>
+        </section>
 
-      <section>
-        <h3>Contact Us</h3>
-        <p>If your question isn’t listed here, please reach out:</p>
-        <ul>
-          <li><strong>Phone:</strong> 0113 555 0198</li>
-          <li><strong>Email:</strong> info@leedsmedical.co.uk</li>
-          <li><strong>Address:</strong> 12 Park Row, Leeds LS1 5HU</li>
-        </ul>
-      </section>
+        <section class="contact card contact-card">
+          <h3>Contact Us</h3>
+          <p>If your question isn’t listed here, please reach out:</p>
+          <ul>
+            <li><strong>Phone:</strong> 0113 555 0198</li>
+            <li><strong>Email:</strong> info@leedsmedical.co.uk</li>
+            <li><strong>Address:</strong> 12 Park Row, Leeds LS1 5HU</li>
+          </ul>
+        </section>
+      </div>
     </main>
 
     <footer>
